@@ -1,0 +1,392 @@
+@extends('layouts.fontend_master')
+
+@section('content')
+ 
+ 
+ <div class="content">
+		<div class="about-section" id="about" id="about">
+	<div class="container">
+		<div class="about-header">
+			<h3>会社概要</h3>
+			<div class="about-imag">
+			<img src="{{ asset('fontend') }}/images/pic-9.jpg" alt="" class="img-about" />
+			</div>
+			<div class="about-text" style="text-align: left;">
+					<p>
+						ウッディ株式会社は1991年12月に資本金3000万円で設立されました。 それ以来、同社は前進してきました。 ウッディ株式会社は、長年にわたり、世界中のお客様との信頼と迅速なサービスに基づいて、良好な取引関係を築いてきました。 
+                    </p> 
+                    
+					<p>
+						私たちは建設重機やペーパーミル、スチールミルなどのさまざまな産業プラントを専門としています。現在、お客様の要求に基づいて作業環境を強化しています。 倉庫、コンテナハウス、コンテナショップ、コンテナオフィスなどを製造することから製鉄を開始しました。川や運河のゴミ洗浄機、浅瀬に浮かぶ浚渫作業など、市場の要求に応じて水陸両用機器を製造しています。
+
+                    </p>
+                    
+                    <p>
+						私たちは、お客様に最高品質の最終製品を提供すると同時に、お客様がそれぞれの業界のリーダーになるよう努めています。
+                    </p>
+                    
+			</div>
+			<div class="clearfix"></div>
+			</div>
+			<div class="about-sectiongrids">
+				<div class="col-md-6 about-leftgrid">
+					<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>コンテナハウス</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>鋼鉄の建物</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>防錆塗料</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>鉄骨構造倉庫 </h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+
+	</div>
+	<div class="col-md-6 about-rightgrid">
+		<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>水陸両用掘削機 </h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>ウッディマナティー </h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>リバークリーニングマシン</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>ポンツーンボートハウスボート</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="arrow1">
+	<a href="#work" class="scroll"><img src="{{ asset('fontend') }}/images/arrow1.png" alt=""/></a>
+					</div>
+	</div>
+	</div>
+	<!-- about-section-ends -->
+    
+    
+	<div class="works-section" id="work" id="work">
+	   <div class="works-header">
+			<h3>私達がすること</h3>
+				<p>
+					私たちは認定企業であり、鉄鋼製造、コンテナハウス、コンテナショップの水陸両用機器の購入、販売、サプライヤーを扱っています。 また、古い水陸両用品を購入し、修理し、必要に応じて市場に販売します 
+                </p>
+		</div>
+		<div class="portfolio-section-bottom-row" id="portfolio">
+			<div class="container">
+				
+						<script src="{{ asset('fontend') }}/js/easyResponsiveTabs.js" type="text/javascript"></script>
+					<script type="text/javascript">
+						$(document).ready(function () {
+							$('#horizontalTab').easyResponsiveTabs({
+								type: 'default', //Types: default, vertical, accordion           
+								width: 'auto', //auto or any width like 600px
+								fit: true   // 100% fit in a container
+							});
+						});
+						
+					</script>
+						<link rel="stylesheet" href="css/swipebox.css">
+							<script src="{{ asset('fontend') }}/js/jquery.swipebox.min.js"></script> 
+								<script type="text/javascript">
+									jQuery(function($) {
+										$(".swipebox").swipebox();
+									});
+								</script>
+							<!-- Portfolio Ends Here -->
+						<div class="sap_tabs">
+							<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+								  <ul class="resp-tabs-list">
+									  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab">
+                                      <span>全て </span>
+                                      </li>
+									  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab">
+                                      <span>製品情報</span>
+                                      </li>
+									  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab">
+                                      <span>水陸両用機器</span>
+                                      </li>
+									  
+									  <div class="clearfix"></div>
+								  </ul>	
+								<div id="portfoliolist">
+									<div class="resp-tabs-container">
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+											<div class="tab_img">
+													<!---==== Steel Fabrication =======-->
+                                                    <div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/4"   title="コンテナハウス">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-1.jpg" class="img-responsive" alt="container house">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/5"   title="コンテナレストラン">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-2.jpg" class="img-responsive" alt="container restaurant">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/6"   title="コンテナオフィス">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-3.jpg" class="img-responsive" alt="container office">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/7"   title="コンテナショップ">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-4.jpg" class="img-responsive" alt="container shop">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+                                                    
+                                                    <!---==== Amphibious Equipment =======-->
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com/amphibious/view/1"   title="水陸両用掘削機">
+															  <img src="{{ asset('fontend') }}/images/amphibious-1.jpg" class="img-responsive" alt="amphibious excavator">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com/amphibious/view/2"   title="リバークリーナー">
+															  <img src="{{ asset('fontend') }}/images/amphibious-2.jpg" class="img-responsive" alt="river cleaners">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com/amphibious/view/3"   title="ウッディマナティー">
+															  <img src="{{ asset('fontend') }}/images/manathee.jpg" class="img-responsive" alt="woody manatee">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com"   title="ポンツーンボート">
+															  <img src="{{ asset('fontend') }}/images/amphibious-3.jpg" class="img-responsive" alt="pontoon boat">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+                                                    
+                                                    
+													<div class="clearfix"></div>	
+											</div>
+																				 
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+											<div class="tab_img">
+												<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/4"   title="コンテナハウス">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-1.jpg" class="img-responsive" alt="container house">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/5"   title="コンテナレストラン">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-2.jpg" class="img-responsive" alt="container restaurant">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/5"   title="コンテナオフィス">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-3.jpg" class="img-responsive" alt="container office">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/6"   title="コンテナショップ">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-4.jpg" class="img-responsive" alt="container shop">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+													<div class="clearfix"></div>	
+											</div>	 	        					 
+										</div>
+                                        
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+											
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com/amphibious/view/1"   title="水陸両用掘削機">
+															  <img src="{{ asset('fontend') }}/images/amphibious-1.jpg" class="img-responsive" alt="amphibious excavator">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com/amphibious/view/2"   title="リバークリーナー">
+															  <img src="{{ asset('fontend') }}/images/amphibious-2.jpg" class="img-responsive" alt="river cleaners">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com/amphibious/view/2"   title="ウッディマナティー">
+															  <img src="{{ asset('fontend') }}/images/manathee.jpg" class="img-responsive" alt="woody manatee">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com"   title="ポンツーンボート">
+															  <img src="{{ asset('fontend') }}/images/amphibious-3.jpg" class="img-responsive" alt="pontoon boat">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+														<div class="clearfix"></div>
+											</div>		        					 
+										</div>
+										
+																				
+									</div>	
+								</div>
+							</div>
+						</div>				
+ 
+				<div class="arrow">
+					<a href="#services" class="scroll"><img src="{{ asset('fontend') }}/images/arrow.png" alt=""/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- portfolio-section-ends -->
+	<div class="services-section" id="services">
+			<div class="container"> 
+			<div class="services-header">
+				<h3>サービス </h3>
+					<p>
+					私たちは重機を専門としています。 当社の資格のあるエンジニアは、当社が行う買収の検査を実施します。 認定検査会社による検査も、お客様のご要望に応じて実施しております。 
+                    </p>
+			</div>
+			<div class="services-sectiongrids">
+				<div class="col-md-4 services-grid">
+					<img src="{{ asset('fontend') }}/images/img11.png" alt=""/>
+					<h4>購入 </h4>
+					<p>
+                    鉄鋼や油圧部品など必要な原材料を購入します
+                    </p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<img src="{{ asset('fontend') }}/images/img22.jpg" alt="" style="border-radius: 50px;"/>
+					<h4>メンテナンス </h4>
+					<p>
+                    お客様の必要に応じてメンテナンスサービスを提供します。 
+                    </p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<img src="{{ asset('fontend') }}/images/img33.png" alt=""/>
+					<h4>セール</h4>
+					<p>
+                    水陸両用機器、鉄鋼製品（各種ウェアハウス、ビル、ビラ）、コンテナ製品（住宅、ショップ、レストラン）などを販売しております。  
+                    </p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="arrow1">
+					<a href="#contact" class="scroll"><img src="{{ asset('fontend') }}/images/arrow1.png" alt=""/></a>
+					</div>
+		</div>
+		</div>
+		</div>
+		<!-- services-section-ends -->
+	</div>
+
+
+
+
+
+
+
+
+
+  @endsection

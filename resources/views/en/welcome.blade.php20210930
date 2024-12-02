@@ -1,0 +1,394 @@
+@extends('layouts.fontend_master')
+
+@section('content')
+ 
+ 
+ <div class="content">
+		<div class="about-section" id="about" id="about">
+	<div class="container">
+		<div class="about-header">
+			<h3>about</h3>
+			<div class="about-imag">
+			<img src="{{ asset('fontend') }}/images/pic-9.jpg" alt="woody factory" class="img-about" />
+			</div>
+			<div class="about-text" style="text-align: left;">
+					<p>
+                    Woody Co., Ltd. was established December of 1991 with a capital of JPY 30,000,000. Since then the company has been moving forward. Through the years, Woody Co., Ltd. has established good business relationship based on trust and Prompt Services with our Customers all over the globe. 
+                    </p> 
+                    
+					<p>
+						We started steel fabrication on the basis of our customer potential requirement to customize equipment to work in various environment and bring useful solution. We manufacture various amphibious equipment ( Amphibious Excavator, Dragging Equipment, Manatee, River Cleaning Machine,pontoon Boat, Houseboat).
+
+                    </p>
+                    
+                    <p>
+                    We provide the highest-quality end products to our customers, while striving to make them the leaders in their respective industries.
+                    </p>
+                    
+			</div>
+			<div class="clearfix"></div>
+			</div>
+			<div class="about-sectiongrids">
+				<div class="col-md-6 about-leftgrid">
+					<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Container House</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Steel Building</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Paint for anti rust</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Steel Structure Warehouse</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+
+	</div>
+	<div class="col-md-6 about-rightgrid">
+		<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Amphibious Excavator</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Woody Manatee</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>River Cleaning Machine</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>pontoon Boat Houseboat</h4>
+						</div>
+						<div class="percentage">
+							<p></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="arrow1">
+	<a href="#work" class="scroll"><img src="{{ asset('fontend') }}/images/arrow1.png" alt=""/></a>
+					</div>
+	</div>
+	</div>
+	<!-- about-section-ends -->
+    
+    
+	<div class="works-section" id="work" id="work">
+	   <div class="works-header">
+			<h3>What We Do</h3>
+				<p>
+                We are certified company, we deal with steel fabrication, container house, container shop amphibious equipment purchase, sales and supplier. We also do purchase old amphibious , repair it and sale it to market where required 
+                </p>
+		</div>
+		<div class="portfolio-section-bottom-row" id="portfolio">
+			<div class="container">
+				
+						<script src="{{ asset('fontend') }}/js/easyResponsiveTabs.js" type="text/javascript"></script>
+					<script type="text/javascript">
+						$(document).ready(function () {
+							$('#horizontalTab').easyResponsiveTabs({
+								type: 'default', //Types: default, vertical, accordion           
+								width: 'auto', //auto or any width like 600px
+								fit: true   // 100% fit in a container
+							});
+						});
+						
+					</script>
+						<link rel="stylesheet" href="css/swipebox.css">
+							<script src="{{ asset('fontend') }}/js/jquery.swipebox.min.js"></script> 
+								<script type="text/javascript">
+									jQuery(function($) {
+										$(".swipebox").swipebox();
+									});
+								</script>
+							<!-- Portfolio Ends Here -->
+						<div class="sap_tabs">
+							<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+								  <ul class="resp-tabs-list">
+									  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab">
+                                      <span>All</span>
+                                      </li>
+									  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab">
+                                      <span>Steel Fabrication</span>
+                                      </li>
+									  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab">
+                                      <span>Amphibious Equipment</span>
+                                      </li>
+									  
+									  <div class="clearfix"></div>
+								  </ul>	
+								<div id="portfoliolist">
+									<div class="resp-tabs-container">
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+											<div class="tab_img">
+													<!---==== Steel Fabrication =======-->
+                                                    <div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/4"   title="container house">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-1.jpg" class="img-responsive" alt="container house">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/5"   title="container restaurant">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-2.jpg" class="img-responsive" alt="container restaurant">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/6"   title="container office">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-3.jpg" class="img-responsive" alt="container office">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/7"   title="container shop">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-4.jpg" class="img-responsive" alt="container shop">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+                                                    
+                                                    <!---==== Amphibious Equipment =======-->
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com/amphibious/view/1"   title="amphibious excavator">
+															  <img src="{{ asset('fontend') }}/images/amphibious-1.jpg" class="img-responsive" alt="amphibious excavator">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com/amphibious/view/2"   title="river cleaners">
+															  <img src="{{ asset('fontend') }}/images/amphibious-2.jpg" class="img-responsive" alt="river cleaners">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com/amphibious/view/3"   title="woody manatee">
+															  <img src="{{ asset('fontend') }}/images/manathee.jpg" class="img-responsive" alt="woody manatee">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com"   title="pontoon boat">
+															  <img src="{{ asset('fontend') }}/images/amphibious-3.jpg" class="img-responsive" alt="pontoon boat">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+                                                    
+                                                    
+													<div class="clearfix"></div>	
+											</div>
+																				 
+										</div>
+                                        <!--====== steel fabrication======-->
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+											<div class="tab_img">
+												<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/4"   title="container house">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-1.jpg" class="img-responsive" alt="container house">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/5"   title="container restaurant">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-2.jpg" class="img-responsive" alt="container restaurant">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/6"   title="container office">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-3.jpg" class="img-responsive" alt="container office">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://steelfabrication.woodyengineering.com/fabrication/view/7"   title="container shop">
+															  <img src="{{ asset('fontend') }}/images/steelfabrication-4.jpg" class="img-responsive" alt="container shop">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+													<div class="clearfix"></div>	
+											</div>	 	        					 
+										</div>
+                                        <!--====== amphibious ======-->
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+											
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com/amphibious/view/1"   title="amphibious excavator">
+															  <img src="{{ asset('fontend') }}/images/amphibious-1.jpg" class="img-responsive" alt="amphibious excavator">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com/amphibious/view/2"   title="river cleaners">
+															  <img src="{{ asset('fontend') }}/images/amphibious-2.jpg" class="img-responsive" alt="river cleaners">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com"   title="View Website">
+															  <img src="{{ asset('fontend') }}/images/manathee.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+
+													<div class="col-md-3 img-top grid_box">
+														<a href="https://amphibious.woodyengineering.com"   title="pontoon boat">
+															  <img src="{{ asset('fontend') }}/images/amphibious-3.jpg" class="img-responsive" alt="pontoon boat">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+														<div class="clearfix"></div>
+											</div>		        					 
+										</div>
+										
+																				
+									</div>	
+								</div>
+							</div>
+						</div>				
+ 
+				<div class="arrow">
+					<a href="#services" class="scroll"><img src="{{ asset('fontend') }}/images/arrow.png" alt=""/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- portfolio-section-ends -->
+	<div class="services-section" id="services">
+			<div class="container"> 
+			<div class="services-header">
+				<h3>services</h3>
+					<p>
+                    We specializes in heavy equipments. Our Qualified Engineers perfom the Inspection of the acquisitions that we make. Inspection by a Certified Inspection Company is also performed as per customer request. 
+                    </p>
+			</div>
+			<div class="services-sectiongrids">
+				<div class="col-md-4 services-grid">
+					<img src="{{ asset('fontend') }}/images/img11.png" alt=""/>
+					<h4>Purchase</h4>
+					<p>
+                    we purchase necessary raw materials like steels and hydrolic components
+					</p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<img src="{{ asset('fontend') }}/images/img22.jpg" alt="" style="border-radius: 50px;"/>
+					<h4>Mainteinance</h4>
+					<p>
+                    We provide maintenance service as required about customer.
+                    </p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<img src="{{ asset('fontend') }}/images/img33.png" alt=""/>
+					<h4>Sale</h4>
+					<p>
+                    we sale amphibious equipment, fabricated steel products(various wearhouse, building, vila), container product(house,
+					shop, restaurent) and so on. 
+                    </p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="arrow1">
+					<a href="#contact" class="scroll"><img src="{{ asset('fontend') }}/images/arrow1.png" alt=""/></a>
+					</div>
+		</div>
+		</div>
+		</div>
+		<!-- services-section-ends -->
+	</div>
+
+
+
+
+
+
+
+
+
+  @endsection
